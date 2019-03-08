@@ -1,1 +1,5 @@
 # Capstone
+
+Pitch:
+
+  Our society today prides itself on instant communication and information at the press of a button. While technology has progressed so far in commercial fields it has lagged in others. The field I'm most interested in is that of law enforcement and providing them with faster and more effective response times. My brother in an office of the law and on his nightly runs preforms numerous traffics stops. All of which are called in via the radio. While the radio is a highly effective tool for communication it still can be slow and have parameters that allow for calls to go through much later than needed. My compromise is to intergrate better dash cams into a station and have the dash cams live streaming the situation as the stop occurs or live action footage of chases. This live streaming will allow for correspondents at dispatch to view and assess the situation as it occurs and wether backup or rescue is required before the officer has the time to assess and radio back.
