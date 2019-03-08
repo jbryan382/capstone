@@ -1,9 +1,18 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <>
+        <Router>
+          <Switch>
+            {/* <Route exact path="/" component={Login} />
+            <Route exact path="/:streamer" component={Streamer} /> */}
+          </Switch>
+        </Router>
+      </>
+    )
   }
 }
 
