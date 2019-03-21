@@ -5,14 +5,15 @@ class Streamer extends Component {
   render() {
     return (
       <>
-        <h1>Title/Logo Here</h1>
+        <h1>Individual Docket Title</h1>
         <Link to="/">Log Out</Link>
-        <h1>Streamer Here</h1>
-        <img
-          src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image"
-          alt="Placeholder IMG"
-        />
-        <section>User Description/About Section</section>
+        <section className="ListSection">
+          <h3>Docket/Case Title</h3>
+          <h4>Case Number</h4>
+          <h5>Date and Time of the Hearing</h5>
+          <h5>Time Until Court Hearing</h5>
+          <p>Indepth Description of Docket (If available to the public)</p>
+        </section>
         <footer>
           <h4>Copyright Information and Stuff.</h4>
           <h5>Made with 💚 at SDG</h5>

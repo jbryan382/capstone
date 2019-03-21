@@ -23,6 +23,10 @@ body {
   border: black solid 1rem;
 }
 
+.ListSection {
+  margin: 0rem 1rem 15rem 10rem;
+}
+
 footer {
   text-align: center;
 }

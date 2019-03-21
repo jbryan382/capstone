@@ -5,7 +5,7 @@ class Streams extends Component {
   render() {
     return (
       <>
-        <h1>Title/Logo Here</h1>
+        <h1>Court Docket List:</h1>
         <Link to="/">Log Out</Link>
         <section>
           <input placeholder="Search" />
@@ -13,13 +13,13 @@ class Streams extends Component {
         </section>
         <section>
           {/* This Section will be dynamically updated for each stream */}
-          <section>
+          <section className="ListSection">
             {/* The Images will be the links to the designated streamers */}
-            <img
-              src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image"
-              alt="Placeholder IMG"
-            />
-            <p>User # and Brief Live Stream</p>
+            <h3>Docket/Case Title</h3>
+            <h4>Case Number</h4>
+            <h5>Date and Time of the Hearing</h5>
+            <h5>Time Until Court Hearing</h5>
+            <p>Description of Docket</p>
           </section>
         </section>
         <footer>
