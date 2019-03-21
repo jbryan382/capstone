@@ -7,7 +7,7 @@ class Streams extends Component {
       <>
         <h1>Court Docket List:</h1>
         <Link to="/">Log Out</Link>
-        <section>
+        <section className="SearchBar">
           <input placeholder="Search" />
           <div>🔍</div>
         </section>
@@ -16,7 +16,7 @@ class Streams extends Component {
           <section className="ListSection">
             {/* The Images will be the links to the designated streamers */}
             <h3>Docket/Case Title</h3>
-            <h4>Case Number</h4>
+            <Link to="/Doc">Case Number</Link>
             <h5>Date and Time of the Hearing</h5>
             <h5>Time Until Court Hearing</h5>
             <p>Description of Docket</p>

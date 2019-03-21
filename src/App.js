@@ -12,7 +12,8 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Login} />
             <Route exact path="/mainList" component={mainList} />
-            <Route exact path="/doc" component={Doc} />
+            <Route exact path="/:Doc" component={Doc} />
+            {/* Add credits page for the API's that I have utilized. */}
           </Switch>
         </Router>
       </>
